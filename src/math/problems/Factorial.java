@@ -12,5 +12,13 @@ public class Factorial {
          *
          */
 
+            int n = 5;
+            long result = fact(n);
+            System.out.println(result);
+        }
+        public static long fact(int n){
+            if (n==0)
+                return 1;
+            else return n*fact(n-1);
     }
 }
